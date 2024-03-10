@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.logout-btn {
+    display: none;
+    margin: 10px auto 10px 50px;
+    width: 200px;
+    background-color: red;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.chat-container {
+    display: none;
+    width: 400px;
+    height: 600px;
+    border: 1px solid brown;
+    border-radius: 13px;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+.display-container {
+    width: 380px;
+    height: 400px;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding-left: 20px;
+    overflow-y: scroll;
+}
+
+.chat-container > div, input, textarea, button {
+    margin-top: 40px;
+}
+
+.hidden {
+    display: none;
+}

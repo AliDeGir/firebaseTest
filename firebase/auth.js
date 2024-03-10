@@ -1,5 +1,5 @@
 // auth module - module 3
-import { fetchMessagesDb, addMessageDb, fetchWithSnapshot } from "./firestore.js"
+import { fetchMessagesDb, addMessageDb, fetchWithSnapshot } from "../firestore.js"
 import { getAuth, createUserWithEmailAndPassword, signOut, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"
 
 
